@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="Anticipadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="0.29"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:backgroundTint="@drawable/side_nav_bar" />
+
+    <Button
+        android:text="Free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="0.29"
+        android:backgroundTint="@drawable/side_nav_bar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:text="Descuentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_weight="0.29"
+        android:backgroundTint="@drawable/side_nav_bar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>

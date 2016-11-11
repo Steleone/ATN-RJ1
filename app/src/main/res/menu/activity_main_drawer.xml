@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Boliches"
+            android:id="@+id/boliches"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:checkable="false" />
+        <item android:title="Promociones"
+            android:id="@+id/promociones"
+            android:icon="@android:drawable/ic_menu_today"
+            android:checkable="false" />
+        <item android:title="Previas"
+            android:id="@+id/previa"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:checkable="false" />
+        <item android:title="Cerca Tuyo"
+            android:id="@+id/localizacion"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:checkable="false" />
+    </group>
+
+</menu>
